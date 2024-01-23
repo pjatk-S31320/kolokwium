@@ -1,6 +1,6 @@
 #!/bin/bash
-mkdir $1
-cd $1
+mkdir $s31320
+cd $s31320
 git init
 git remote add origin git@github.com:pjatk-S31320/kolokwium.git
 touch ReadMe.MD 
