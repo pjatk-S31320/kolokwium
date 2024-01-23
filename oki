@@ -1,0 +1,7 @@
+#!/bin/bash
+git config --global user.name "Amelia Mankowska"
+git config --global user.email "amelka887@icloud.com"
+ssh-keygen -t ed25519 -C "amelka887@icloud.com"
+eval 'ssh-agent -s'
+ssh-add ~/.ssh/id_ed25519
+
