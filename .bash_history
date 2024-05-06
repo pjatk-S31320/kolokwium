@@ -177,3 +177,22 @@ ls
 touch skrypt_config.sh
 ls
 nano skrypt_config.sh
+touch konfiguracja.sh
+nano konfiguracja.sh
+ssh-keygen -t ed25519 -C "s31320@pjwstk.edu.pl"
+touch automat.sh
+./ konfiguracja.sh
+nano automat.sh
+./ automat.sh
+./automat.sh
+chmod 755 ./automat.sh
+./automat.sh
+nano automat.sh 
+./automat.sh 
+git clone https://github.com/PJATK-AU/lab-03-pjatk-S31320.git
+git clone https://github.com/PJATK-AU/lab-04-pjatk-S31320.git
+git clone https://github.com/PJATK-AU/lab-06-pjatk-S31320.git
+git add
+git add .
+git commit -m "kolos"
+git push
